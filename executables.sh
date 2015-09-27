@@ -10,7 +10,7 @@ do
     elif [ -d "$dir" ]
     then
         echo "${dir}:"
-        ls "$dir"
+        find "$dir" -mindepth 1 | sort
     elif [ -e "$dir" ]
     then
         echo "${dir} is neither a symlink not a directory:"
