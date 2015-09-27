@@ -1,2 +1,2 @@
 executables:
-	sh executables.sh
+	./executables.sh

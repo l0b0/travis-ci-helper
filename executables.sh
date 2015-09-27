@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 set -o errexit -o nounset
 
 for dir in {,/usr{,/local}}/{,s}bin
