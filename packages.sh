@@ -2,4 +2,4 @@
 
 set -o errexit
 
-dpkg --get-selections '.'
+dpkg --list
