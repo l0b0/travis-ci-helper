@@ -2,5 +2,4 @@
 
 set -o errexit
 
-dpkg --list
-apt-cache pkgnames
+apt-cache dump
