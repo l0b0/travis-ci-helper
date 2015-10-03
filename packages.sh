@@ -2,4 +2,4 @@
 
 set -o errexit
 
-apt-cache dump
+dpkg-query -f '${Package}\t${db:Status-Status}\n' -W '*'
