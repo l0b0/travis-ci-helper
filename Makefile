@@ -1,4 +1,7 @@
-all: executables packages
+all: environment executables packages
+
+environment:
+	./environment.sh
 
 executables:
 	./executables.sh
