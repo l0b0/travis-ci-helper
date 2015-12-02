@@ -1,3 +1,2 @@
-language: shell
-script: make
-sudo: required
+language: ruby
+script: bundle exec make
