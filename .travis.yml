@@ -1,2 +1,3 @@
 language: ruby
+sudo: required
 script: bundle exec make
