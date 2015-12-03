@@ -2,4 +2,4 @@
 
 set -o errexit
 
-systemctl list-units
+service --status-all
