@@ -14,3 +14,6 @@ java:
 
 packages:
 	./packages.sh
+
+services:
+	./services.sh
