@@ -2,5 +2,5 @@ language: ruby
 sudo: required
 before_install:
   - sudo apt-get update
-  - sudo apt-get install openjdk-7-jdk
+  - sudo apt-get install cups openjdk-7-jdk
 script: bundle exec make
