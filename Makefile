@@ -1,4 +1,4 @@
-all: environment executables facts java packages services
+all: environment executables facts packages services
 
 environment:
 	./environment.sh
@@ -8,9 +8,6 @@ executables:
 
 facts:
 	./facts.sh
-
-java:
-	./java.sh
 
 packages:
 	./packages.sh
