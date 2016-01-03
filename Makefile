@@ -1,4 +1,4 @@
-all: environment executables facts packages services
+all: environment executables facts packages services timezones
 
 environment:
 	./environment.sh
@@ -14,3 +14,6 @@ packages:
 
 services:
 	./services.sh
+
+timezones:
+	./timezones.sh
