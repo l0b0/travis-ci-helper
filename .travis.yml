@@ -2,5 +2,5 @@ language: ruby
 sudo: required
 before_install:
   - sudo apt-get update
-  - sudo apt-get install cups flashplugin-installer
+  - sudo apt-get install cups
 script: bundle exec make
