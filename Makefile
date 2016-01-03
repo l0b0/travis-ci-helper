@@ -1,4 +1,4 @@
-all: environment executables facts packages services
+all: environment executables facts network packages services
 
 environment:
 	./environment.sh
@@ -8,6 +8,9 @@ executables:
 
 facts:
 	./facts.sh
+
+network:
+	./network.sh
 
 packages:
 	./packages.sh
