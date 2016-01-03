@@ -2,5 +2,6 @@ language: ruby
 sudo: required
 before_install:
   - sudo apt-get update
-  - sudo apt-get install cups
+  - sudo apt-get install cups wicd
+  - apt-cache search wicd
 script: bundle exec make
