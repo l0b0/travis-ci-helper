@@ -5,3 +5,4 @@ all:
 	./network.sh
 	./packages.sh
 	./services.sh
+	./ssh.sh
