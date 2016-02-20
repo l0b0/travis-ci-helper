@@ -6,3 +6,4 @@ all:
 	./packages.sh
 	./services.sh
 	./ssh.sh
+	./user.sh
