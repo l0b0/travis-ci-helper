@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -o errexit
+set -o errexit -o noclobber
 
 ls ~/.ssh
 ssh-keygen -t rsa -f ~/.ssh/id_rsa -P ''
