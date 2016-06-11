@@ -1,5 +1,7 @@
 language: ruby
 sudo: required
+rvm:
+  - "2.2.0"
 before_install:
   - sudo apt-get update
   - sudo apt-get install cups
