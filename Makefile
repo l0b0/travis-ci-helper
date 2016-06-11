@@ -8,3 +8,5 @@ all:
 	./services.sh
 	./ssh.sh
 	./user.sh
+
+include make-includes/xml.mk
