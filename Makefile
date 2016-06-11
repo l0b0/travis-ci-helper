@@ -4,6 +4,7 @@ all:
 	./facts.sh
 	./network.sh
 	./packages.sh
+	./ruby.sh
 	./services.sh
 	./ssh.sh
 	./user.sh
