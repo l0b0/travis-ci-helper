@@ -2,14 +2,47 @@ GEM
   remote: https://rubygems.org/
   specs:
     CFPropertyList (2.2.8)
-    facter (2.4.4)
+    ast (2.3.0)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    codeclimate-engine-rb (0.3.1)
+      virtus (~> 1.0)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.11)
+    facter (2.4.6)
       CFPropertyList (~> 2.2.6)
+    ice_nine (0.11.2)
+    json (1.8.3)
+    parser (2.3.1.2)
+      ast (~> 2.2)
+    puppet-lint (1.1.0)
+    rainbow (2.1.0)
+    reek (4.0.3)
+      codeclimate-engine-rb (~> 0.3.1)
+      parser (~> 2.3, >= 2.3.0.6)
+      rainbow (~> 2.0)
+    thread_safe (0.3.5)
+    travis-lint (2.0.0)
+      json
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   facter
+  puppet-lint
+  reek
+  travis-lint
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
