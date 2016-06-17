@@ -3,6 +3,7 @@ all:
 	./executables.sh
 	./facts.sh
 	./packages.sh
+	./python.sh
 	./ruby.sh
 	./services.sh
 	./ssh.sh
