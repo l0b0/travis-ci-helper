@@ -1,3 +1,5 @@
+XML_EXTENSIONS = iml xml
+
 all:
 	./environment.sh
 	./executables.sh
