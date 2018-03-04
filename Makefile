@@ -5,7 +5,6 @@ all:
 	./packages.sh
 	./ruby.sh
 	./services.sh
-	./ssh.sh
 	./user.sh
 
 include make-includes/xml.mk
